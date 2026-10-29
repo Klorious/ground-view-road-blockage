@@ -1,0 +1,84 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Never upload photographs, videos or audio
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.gif
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+
+# Never upload annotations, human labels or tabular research data
+*.json
+*.jsonl
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.xml
+*.yaml
+*.yml
+
+# Never upload model/data archives or binary arrays
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.weights
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Common dataset directories
+data/
+dataset/
+datasets/
+images/
+image/
+annotations/
+labels/
+ground_truth/
+raw_data/
+
+# Generated inference and diagnostic outputs
+results/
+results_*/
+output/
+outputs/
+overlays/
+diagnostics*/
+D_aux_debug/
+local224*/
+uavg_selected*/
+news_2d_*/
+
+# Local IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
